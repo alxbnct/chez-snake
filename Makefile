@@ -1,4 +1,4 @@
 scheme=scheme
 LIBDIRS=D:\home\src\chez-sdl\lib
-all: events.ss
-	$(scheme) --libdirs $(LIBDIRS) --script events.ss
+all: snake.ss
+	$(scheme) --libdirs $(LIBDIRS) --script snake.ss
